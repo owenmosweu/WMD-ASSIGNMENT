@@ -1,0 +1,152 @@
+
+* {
+    box-sizing: border-box 
+}
+
+body {
+    height: 120vh;
+    width: 99vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding-left:40% ;
+    height: 35vh;
+
+}
+
+
+nav {
+    height: 30vh;
+    background-color: black;
+    color:black;
+    
+}
+
+main {
+    height: 450vh;
+    background-color: #fff;
+}
+footer{
+    height: 10vh;
+    background-color: red;
+}
+
+ul {
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li a {
+    
+    color: green;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: seashell;
+}
+
+ul li a:hover{
+    color: blue;
+}
+.search {
+   width: 330px;
+   float: left;
+   margin-left:170px;
+
+}   
+
+.srch{
+    font-family: "Arial";
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    background:transparent;
+    border: 1px solid green;
+    margin-top: 14px;
+    
+    
+}
+
+
+
+
+.space {
+    
+        background-color:grey;
+        width: 300px;
+        border: 1px solid green; 
+    
+}
+
+.footer {
+    
+        margin-left: 550px;
+    }
+
+
+    .low {
+        
+    
+        float: left;
+        
+     
+     }   
+     
+     .lower{
+         font-family: "Arial";
+         color:black;
+         width: 500px;
+         height: 100px;
+         background:transparent;
+         border: 2px solid white;
+         margin-top: 14px;
+         
+         
+     }
+
+     
+.black {
+         
+    background-color: black;
+    width: 1250px;
+    border: 1px solid green;
+    color: red;
+    margin-left: 20px;
+    padding: 20px; 
+    outline-color:red;
+    outline-style: solid ;
+    outline-width: 5px;
+    outline-offset: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+    
+.tk {
+         
+    background-color: black;
+    width: 1250px;
+    border: 1px solid green;
+    color: red;
+    margin-left: 20px;
+    padding: 20px; 
+    outline-color:red;
+    outline-style: solid ;
+    outline-width: 5px;
+    outline-offset: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
